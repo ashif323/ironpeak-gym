@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IRONPEAK GYM — Forge Your Legacy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">IRON<span>PEAK</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#programs" class="nav-link">Programs</a></li>
+      <li><a href="#achievements" class="nav-link">Awards</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#trainers" class="nav-link">Trainers</a></li>
+      <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#pricing" class="nav-cta">JOIN NOW</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1800&q=80" alt="Gym" class="hero-img" loading="eager"/>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">EST. 2019 · NEW DELHI</p>
+      <h1 class="hero-title">FORGE<br/><span class="outline-text">YOUR</span><br/>LEGACY</h1>
+      <p class="hero-sub">Elite training. Real results. No excuses.</p>
+      <div class="hero-actions">
+        <a href="#programs" class="btn-primary">EXPLORE PROGRAMS</a>
+        <a href="#gallery" class="btn-ghost">VIEW GALLERY <i class="fas fa-images"></i></a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num" data-target="1200">0</span><span class="stat-label">Members</span></div>
+      <div class="stat"><span class="stat-num" data-target="15">0</span><span class="stat-label">Expert Trainers</span></div>
+      <div class="stat"><span class="stat-num" data-target="8">0</span><span class="stat-label">Programs</span></div>
+      <div class="stat"><span class="stat-num" data-target="98">0</span><span class="stat-label">% Satisfaction</span></div>
+    </div>
+    <div class="hero-scroll"><span>SCROLL</span><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>STRENGTH</span><span class="dot">✦</span><span>ENDURANCE</span><span class="dot">✦</span>
+      <span>DISCIPLINE</span><span class="dot">✦</span><span>POWER</span><span class="dot">✦</span>
+      <span>TRANSFORM</span><span class="dot">✦</span><span>ELITE TRAINING</span><span class="dot">✦</span>
+      <span>STRENGTH</span><span class="dot">✦</span><span>ENDURANCE</span><span class="dot">✦</span>
+      <span>DISCIPLINE</span><span class="dot">✦</span><span>POWER</span><span class="dot">✦</span>
+      <span>TRANSFORM</span><span class="dot">✦</span><span>ELITE TRAINING</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&q=80" alt="Gym equipment" loading="lazy"/>
+          </div>
+          <div class="about-img-side">
+            <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80" alt="Workout" loading="lazy"/>
+          </div>
+          <div class="about-badge"><span class="badge-num">5★</span><span class="badge-text">Google Rating</span></div>
+          <div class="about-exp-badge"><span class="exp-num">5+</span><span class="exp-text">Years of<br/>Excellence</span></div>
+        </div>
+        <div class="about-text">
+          <p class="section-tag">// ABOUT US</p>
+          <h2 class="section-title">We Don't Just Train.<br/>We <span class="accent">Transform.</span></h2>
+          <p class="about-desc">IronPeak isn't a gym. It's a proving ground. With world-class equipment, science-backed programming, and coaches who've competed at the national level — every visit moves the needle.</p>
+          <div class="about-features">
+            <div class="feature-item"><i class="fas fa-bolt"></i><div><h4>24/7 Access</h4><p>Train on your schedule, not ours.</p></div></div>
+            <div class="feature-item"><i class="fas fa-brain"></i><div><h4>Science-Based Programs</h4><p>Periodized plans that actually work.</p></div></div>
+            <div class="feature-item"><i class="fas fa-users"></i><div><h4>Community</h4><p>Join 1200+ members pushing limits daily.</p></div></div>
+          </div>
+          <a href="#programs" class="btn-primary">SEE OUR PROGRAMS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">// PROGRAMS</p>
+        <h2 class="section-title">Built For Every<br/><span class="accent">Beast Mode</span></h2>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card" style="--bg-img:url('https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?w=600&q=70')">
+          <div class="program-card-bg"></div>
+          <div class="program-num">01</div>
+          <div class="program-icon"><i class="fas fa-dumbbell"></i></div>
+          <h3>Strength & Power</h3>
+          <p>Compound lifts, progressive overload, and periodization to build brute strength.</p>
+          <ul><li><i class="fas fa-check"></i> 5x per week sessions</li><li><i class="fas fa-check"></i> Powerlifting focus</li><li><i class="fas fa-check"></i> 1-on-1 coaching</li></ul>
+          <a href="#contact" class="program-link">ENQUIRE <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="program-card featured" style="--bg-img:url('https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?w=600&q=70')">
+          <div class="program-card-bg"></div>
+          <div class="featured-badge">POPULAR</div>
+          <div class="program-num">02</div>
+          <div class="program-icon"><i class="fas fa-fire"></i></div>
+          <h3>HIIT & Conditioning</h3>
+          <p>Metabolic conditioning that burns fat, builds endurance, and spikes your VO2 max.</p>
+          <ul><li><i class="fas fa-check"></i> 45-min fat-burn sessions</li><li><i class="fas fa-check"></i> Heart rate tracking</li><li><i class="fas fa-check"></i> Group energy</li></ul>
+          <a href="#contact" class="program-link">ENQUIRE <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="program-card" style="--bg-img:url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=70')">
+          <div class="program-card-bg"></div>
+          <div class="program-num">03</div>
+          <div class="program-icon"><i class="fas fa-spa"></i></div>
+          <h3>Mobility & Yoga</h3>
+          <p>Flexibility, recovery, and injury prevention through structured mobility work.</p>
+          <ul><li><i class="fas fa-check"></i> Morning & evening batches</li><li><i class="fas fa-check"></i> Certified yogi</li><li><i class="fas fa-check"></i> Breathwork included</li></ul>
+          <a href="#contact" class="program-link">ENQUIRE <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="program-card" style="--bg-img:url('https://images.unsplash.com/photo-1509563268479-0f004cf3f58b?w=600&q=70')">
+          <div class="program-card-bg"></div>
+          <div class="program-num">04</div>
+          <div class="program-icon"><i class="fas fa-hand-fist"></i></div>
+          <h3>Boxing & MMA</h3>
+          <p>Full-contact skills, bag work, and sparring under professional fight coaches.</p>
+          <ul><li><i class="fas fa-check"></i> Beginner to advanced</li><li><i class="fas fa-check"></i> Sparring sessions</li><li><i class="fas fa-check"></i> Competition prep</li></ul>
+          <a href="#contact" class="program-link">ENQUIRE <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="program-card" style="--bg-img:url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=70')">
+          <div class="program-card-bg"></div>
+          <div class="program-num">05</div>
+          <div class="program-icon"><i class="fas fa-apple-whole"></i></div>
+          <h3>Nutrition Coaching</h3>
+          <p>Customized meal plans, macro tracking, and supplement guidance.</p>
+          <ul><li><i class="fas fa-check"></i> Blood-work analysis</li><li><i class="fas fa-check"></i> Weekly check-ins</li><li><i class="fas fa-check"></i> App-based tracking</li></ul>
+          <a href="#contact" class="program-link">ENQUIRE <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="program-card" style="--bg-img:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=70')">
+          <div class="program-card-bg"></div>
+          <div class="program-num">06</div>
+          <div class="program-icon"><i class="fas fa-person-running"></i></div>
+          <h3>Body Transformation</h3>
+          <p>12-week complete overhaul — training + diet + accountability all in one.</p>
+          <ul><li><i class="fas fa-check"></i> Before/after tracking</li><li><i class="fas fa-check"></i> Dedicated coach</li><li><i class="fas fa-check"></i> Guaranteed results</li></ul>
+          <a href="#contact" class="program-link">ENQUIRE <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section class="achievements" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">// RECOGNITION</p>
+        <h2 class="section-title">Awards &amp; <span class="accent">Achievements</span></h2>
+        <p class="section-sub">Five years of excellence recognized by the fitness industry</p>
+      </div>
+
+      <div class="awards-row">
+        <div class="award-card">
+          <div class="award-icon-wrap"><i class="fas fa-trophy"></i></div>
+          <div class="award-year">2024</div>
+          <h3>Best Gym in Delhi NCR</h3>
+          <p>Awarded by FitIndia Magazine for outstanding facility and member satisfaction.</p>
+        </div>
+        <div class="award-card gold">
+          <div class="award-icon-wrap"><i class="fas fa-medal"></i></div>
+          <div class="award-year">2023</div>
+          <h3>National Fitness Excellence</h3>
+          <p>Top-ranked independent gym by the Indian Fitness Association.</p>
+        </div>
+        <div class="award-card">
+          <div class="award-icon-wrap"><i class="fas fa-star"></i></div>
+          <div class="award-year">2023</div>
+          <h3>5-Star Google Rating</h3>
+          <p>Maintained a perfect 5-star rating across 800+ verified reviews.</p>
+        </div>
+        <div class="award-card">
+          <div class="award-icon-wrap"><i class="fas fa-award"></i></div>
+          <div class="award-year">2022</div>
+          <h3>Best HIIT Studio</h3>
+          <p>Recognized by HealthToday India for innovation in group fitness.</p>
+        </div>
+      </div>
+
+      <!-- Milestone Images -->
+      <div class="milestones-wrap">
+        <div class="milestones-header">
+          <h3>Member <span class="accent">Milestones</span></h3>
+          <p>Numbers that define our legacy</p>
+        </div>
+        <div class="milestones-grid">
+          <div class="milestone">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=500&q=75" alt="Transformations" loading="lazy"/>
+            <div class="milestone-overlay"><span class="milestone-num">500+</span><span class="milestone-label">Transformations</span></div>
+          </div>
+          <div class="milestone">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&q=75" alt="Competitions" loading="lazy"/>
+            <div class="milestone-overlay"><span class="milestone-num">120+</span><span class="milestone-label">Competitions Won</span></div>
+          </div>
+          <div class="milestone">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&q=75" alt="Classes" loading="lazy"/>
+            <div class="milestone-overlay"><span class="milestone-num">10K+</span><span class="milestone-label">Classes Held</span></div>
+          </div>
+          <div class="milestone">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=500&q=75" alt="Athletes" loading="lazy"/>
+            <div class="milestone-overlay"><span class="milestone-num">45+</span><span class="milestone-label">National Athletes</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Press -->
+      <div class="press-section">
+        <p class="press-label">AS FEATURED IN</p>
+        <div class="press-logos">
+          <div class="press-item"><i class="fas fa-newspaper"></i><span>Times of India</span></div>
+          <div class="press-item"><i class="fas fa-tv"></i><span>NDTV Health</span></div>
+          <div class="press-item"><i class="fas fa-book-open"></i><span>FitIndia Mag</span></div>
+          <div class="press-item"><i class="fas fa-podcast"></i><span>HealthToday</span></div>
+          <div class="press-item"><i class="fas fa-globe"></i><span>SportStar</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">// OUR SPACE</p>
+        <h2 class="section-title">Inside <span class="accent">IronPeak</span></h2>
+        <p class="section-sub">World-class equipment in an atmosphere built for champions</p>
+      </div>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="facility">Facility</button>
+        <button class="filter-btn" data-filter="training">Training</button>
+        <button class="filter-btn" data-filter="community">Community</button>
+        <button class="filter-btn" data-filter="results">Results</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item large" data-cat="facility">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80" alt="Main Gym Floor" loading="lazy"/>
+          <div class="gallery-overlay"><span>Main Gym Floor</span></div>
+        </div>
+        <div class="gallery-item" data-cat="training">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&q=80" alt="Weight Training" loading="lazy"/>
+          <div class="gallery-overlay"><span>Weight Training</span></div>
+        </div>
+        <div class="gallery-item" data-cat="training">
+          <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=600&q=80" alt="Powerlifting" loading="lazy"/>
+          <div class="gallery-overlay"><span>Powerlifting Zone</span></div>
+        </div>
+        <div class="gallery-item" data-cat="facility">
+          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&q=80" alt="Cardio Zone" loading="lazy"/>
+          <div class="gallery-overlay"><span>Cardio Zone</span></div>
+        </div>
+        <div class="gallery-item tall" data-cat="training">
+          <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&q=80" alt="Boxing" loading="lazy"/>
+          <div class="gallery-overlay"><span>Boxing Ring</span></div>
+        </div>
+        <div class="gallery-item" data-cat="community">
+          <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&q=80" alt="Group class" loading="lazy"/>
+          <div class="gallery-overlay"><span>Group Sessions</span></div>
+        </div>
+        <div class="gallery-item" data-cat="community">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=600&q=80" alt="Community" loading="lazy"/>
+          <div class="gallery-overlay"><span>Our Community</span></div>
+        </div>
+        <div class="gallery-item large" data-cat="facility">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=900&q=80" alt="Equipment" loading="lazy"/>
+          <div class="gallery-overlay"><span>Premium Equipment</span></div>
+        </div>
+        <div class="gallery-item" data-cat="results">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80" alt="Results" loading="lazy"/>
+          <div class="gallery-overlay"><span>Member Results</span></div>
+        </div>
+        <div class="gallery-item" data-cat="training">
+          <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&q=80" alt="Personal Training" loading="lazy"/>
+          <div class="gallery-overlay"><span>Personal Training</span></div>
+        </div>
+        <div class="gallery-item" data-cat="facility">
+          <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=600&q=80" alt="Free Weights" loading="lazy"/>
+          <div class="gallery-overlay"><span>Free Weights Area</span></div>
+        </div>
+        <div class="gallery-item" data-cat="community">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80" alt="Yoga class" loading="lazy"/>
+          <div class="gallery-overlay"><span>Yoga & Mobility</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt=""/>
+        <p id="lightboxCaption"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section class="trainers" id="trainers">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">// OUR TEAM</p>
+        <h2 class="section-title">Coached By<br/><span class="accent">Champions</span></h2>
+      </div>
+      <div class="trainers-grid">
+        <div class="trainer-card">
+          <div class="trainer-img">
+            <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=500&q=80" alt="Arjun Malhotra" loading="lazy"/>
+            <div class="trainer-social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
+          </div>
+          <div class="trainer-info">
+            <h3>Arjun Malhotra</h3>
+            <span class="trainer-role">Head Strength Coach</span>
+            <p>National-level powerlifter. 10+ years coaching elite athletes.</p>
+            <div class="trainer-tags"><span>Powerlifting</span><span>Strength</span><span>Olympic Lifting</span></div>
+          </div>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-img">
+            <img src="https://images.unsplash.com/photo-1609899537878-47b739914f42?w=500&q=80" alt="Priya Sharma" loading="lazy"/>
+            <div class="trainer-social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
+          </div>
+          <div class="trainer-info">
+            <h3>Priya Sharma</h3>
+            <span class="trainer-role">HIIT & Cardio Specialist</span>
+            <p>Certified CrossFit L2 coach. Former marathoner. HIIT enthusiast.</p>
+            <div class="trainer-tags"><span>HIIT</span><span>CrossFit</span><span>Nutrition</span></div>
+          </div>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-img">
+            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500&q=80" alt="Rahul Singh" loading="lazy"/>
+            <div class="trainer-social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
+          </div>
+          <div class="trainer-info">
+            <h3>Rahul Singh</h3>
+            <span class="trainer-role">Boxing & MMA Coach</span>
+            <p>Ex-state boxing champion. 8 years fight sports experience.</p>
+            <div class="trainer-tags"><span>Boxing</span><span>MMA</span><span>Defense</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">// PRICING</p>
+        <h2 class="section-title">Simple. Fair.<br/><span class="accent">No Hidden Fees.</span></h2>
+      </div>
+      <div class="pricing-toggle">
+        <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+        <div class="toggle-switch" id="toggleSwitch"><div class="toggle-knob"></div></div>
+        <span class="toggle-label" id="annualLabel">Annual <span class="save-badge">Save 20%</span></span>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price"><span class="currency">₹</span><span class="amount monthly-price">1,499</span><span class="amount annual-price" style="display:none">1,199</span><span class="period">/mo</span></div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Gym floor access</li>
+            <li><i class="fas fa-check"></i> Locker room</li>
+            <li><i class="fas fa-check"></i> 2 group classes/month</li>
+            <li class="disabled"><i class="fas fa-times"></i> Personal trainer</li>
+            <li class="disabled"><i class="fas fa-times"></i> Nutrition plan</li>
+            <li class="disabled"><i class="fas fa-times"></i> 24/7 access</li>
+          </ul>
+          <a href="#contact" class="btn-outline">GET STARTED</a>
+        </div>
+        <div class="pricing-card popular">
+          <div class="popular-label">BEST VALUE</div>
+          <div class="plan-name">Pro</div>
+          <div class="plan-price"><span class="currency">₹</span><span class="amount monthly-price">2,999</span><span class="amount annual-price" style="display:none">2,399</span><span class="period">/mo</span></div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Full gym access</li>
+            <li><i class="fas fa-check"></i> Unlimited group classes</li>
+            <li><i class="fas fa-check"></i> 4 PT sessions/month</li>
+            <li><i class="fas fa-check"></i> Nutrition guidance</li>
+            <li><i class="fas fa-check"></i> 24/7 access</li>
+            <li class="disabled"><i class="fas fa-times"></i> Dedicated coach</li>
+          </ul>
+          <a href="#contact" class="btn-primary">GET STARTED</a>
+        </div>
+        <div class="pricing-card">
+          <div class="plan-name">Elite</div>
+          <div class="plan-price"><span class="currency">₹</span><span class="amount monthly-price">5,999</span><span class="amount annual-price" style="display:none">4,799</span><span class="period">/mo</span></div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Everything in Pro</li>
+            <li><i class="fas fa-check"></i> Dedicated personal coach</li>
+            <li><i class="fas fa-check"></i> Custom meal plan</li>
+            <li><i class="fas fa-check"></i> Body composition scans</li>
+            <li><i class="fas fa-check"></i> Supplement consultation</li>
+            <li><i class="fas fa-check"></i> Priority booking</li>
+          </ul>
+          <a href="#contact" class="btn-outline">GET STARTED</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">// TESTIMONIALS</p>
+        <h2 class="section-title">Real People.<br/><span class="accent">Real Results.</span></h2>
+      </div>
+      <div class="testimonials-slider"><div class="testimonial-track" id="track">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Lost 18kg in 4 months with the body transformation program. The coaches here are genuinely invested in your progress."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80" alt="Rohan"/>
+            <div><strong>Rohan Kumar</strong><span>Lost 18kg</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Priya's HIIT classes are no joke — I've never felt more alive. Best investment I've made for my health."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80" alt="Sneha"/>
+            <div><strong>Sneha Mehta</strong><span>HIIT Member</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Went from beginner to competing in my first powerlifting meet in 8 months. Arjun's coaching is elite."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80" alt="Vikas"/>
+            <div><strong>Vikas Thakur</strong><span>Powerlifter</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The 24/7 access is a game-changer. I train at 5am before work and the facility is always spotless."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&q=80" alt="Ananya"/>
+            <div><strong>Ananya Das</strong><span>Pro Member</span></div>
+          </div>
+        </div>
+      </div></div>
+      <div class="slider-controls">
+        <button class="slider-btn" id="prevBtn"><i class="fas fa-arrow-left"></i></button>
+        <div class="slider-dots" id="dots"></div>
+        <button class="slider-btn" id="nextBtn"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- BMI CALCULATOR -->
+  <section class="bmi-section">
+    <div class="container">
+      <div class="bmi-wrapper">
+        <div class="bmi-text">
+          <p class="section-tag">// FREE TOOL</p>
+          <h2 class="section-title">Check Your <span class="accent">BMI</span></h2>
+          <p>Find out where you stand and what program suits you best.</p>
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&q=70" alt="Fitness" class="bmi-side-img" loading="lazy"/>
+        </div>
+        <div class="bmi-calculator">
+          <div class="bmi-inputs">
+            <div class="bmi-field"><label>Height (cm)</label><input type="number" id="heightInput" placeholder="175" min="100" max="250"/></div>
+            <div class="bmi-field"><label>Weight (kg)</label><input type="number" id="weightInput" placeholder="75" min="30" max="300"/></div>
+          </div>
+          <button class="btn-primary" id="calcBmi">CALCULATE BMI</button>
+          <div class="bmi-result" id="bmiResult">
+            <div class="bmi-score" id="bmiScore">--</div>
+            <div class="bmi-category" id="bmiCategory">Enter your details above</div>
+            <div class="bmi-bar-wrap"><div class="bmi-bar"><div class="bmi-indicator" id="bmiIndicator"></div><div class="bmi-zones"><span>Underweight</span><span>Normal</span><span>Overweight</span><span>Obese</span></div></div></div>
+            <p class="bmi-advice" id="bmiAdvice"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-tag">// CONTACT</p>
+          <h2 class="section-title">Start Your<br/><span class="accent">Journey Today</span></h2>
+          <div class="contact-details">
+            <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><strong>Find Us</strong><p>Plot 42, Sector 18, Gurugram, Haryana 122015</p></div></div>
+            <div class="contact-item"><i class="fas fa-phone"></i><div><strong>Call Us</strong><p>+91 98765 43210</p></div></div>
+            <div class="contact-item"><i class="fas fa-clock"></i><div><strong>Hours</strong><p>Mon–Sat: 5am–11pm | Sun: 7am–8pm</p></div></div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm">
+            <h3>Book a Free Trial</h3>
+            <div class="form-row">
+              <div class="form-group"><input type="text" placeholder="Your Name" required/></div>
+              <div class="form-group"><input type="email" placeholder="Email Address" required/></div>
+            </div>
+            <div class="form-group"><input type="tel" placeholder="Phone Number"/></div>
+            <div class="form-group">
+              <select>
+                <option value="">Select a Program</option>
+                <option>Strength & Power</option><option>HIIT & Conditioning</option>
+                <option>Mobility & Yoga</option><option>Boxing & MMA</option>
+                <option>Body Transformation</option><option>Nutrition Coaching</option>
+              </select>
+            </div>
+            <div class="form-group"><textarea placeholder="Any message or questions?" rows="4"></textarea></div>
+            <button type="submit" class="btn-primary full-width">BOOK FREE TRIAL <i class="fas fa-arrow-right"></i></button>
+            <div class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Thanks! We'll contact you within 24 hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">IRON<span>PEAK</span></div>
+          <p>Where limits are broken and legacies are built. Join the movement.</p>
+        </div>
+        <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#achievements">Awards</a></li><li><a href="#gallery">Gallery</a></li></ul></div>
+        <div class="footer-links"><h4>Programs</h4><ul><li><a href="#programs">Strength & Power</a></li><li><a href="#programs">HIIT Training</a></li><li><a href="#programs">Boxing & MMA</a></li><li><a href="#programs">Nutrition</a></li></ul></div>
+        <div class="footer-links"><h4>Contact</h4><ul><li><a href="tel:+919876543210">+91 98765 43210</a></li><li><a href="mailto:info@ironpeak.in">info@ironpeak.in</a></li><li><a href="#contact">Book Free Trial</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 IronPeak Gym. All rights reserved.</p>
+        <p>Crafted with <span style="color:var(--accent)">♥</span> for champions</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
